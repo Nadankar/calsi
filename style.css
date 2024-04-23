@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background:linear-gradient(to right, rgb(117, 99, 179),rgb(43, 96, 211))
+}
+ .main-body{
+    display: flex;
+    flex-wrap: wrap;
+    height: 190px;
+    width: 140px;
+    margin-top: 60px;
+    border:2px solid black;
+    background: rgb(62, 59, 59);
+} 
+input{
+    background:rgb(92, 85, 85);
+    width: 100%;
+    color: white;
+}
+button{
+    height: 30px;
+    width: 30px;
+    margin-top: 2px;
+    background: rgb(58, 57, 56);
+    color: white;
+}
